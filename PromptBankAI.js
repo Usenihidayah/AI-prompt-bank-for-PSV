@@ -4495,20 +4495,12 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.button1_1();
 	this.instance.setTransform(0,0,0.6702,0.5279);
 
-	this.lblView_1 = new cjs.Text("Pandangan\n(pilih)", "27px 'Tw Cen MT Condensed Extra Bold'");
-	this.lblView_1.name = "lblView_1";
-	this.lblView_1.textAlign = "center";
-	this.lblView_1.lineHeight = 31;
-	this.lblView_1.lineWidth = 186;
-	this.lblView_1.parent = this;
-	this.lblView_1.setTransform(103,14.75);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView,p:{scaleX:1,scaleY:1,x:103,y:14.75,color:"#000000",text:"Pandangan\n(pilih)",font:"27px 'Tw Cen MT Condensed Extra Bold'",lineHeight:31.2,lineWidth:186}}]}).to({state:[{t:this.instance,p:{scaleX:0.7745,scaleY:0.61,x:-17,y:-8}},{t:this.lblView,p:{scaleX:1.1556,scaleY:1.1556,x:101.9683,y:9.2401,color:"#FF9900",text:"Pandangan\n(pilih)",font:"27px 'Tw Cen MT Condensed Extra Bold'",lineHeight:31.2,lineWidth:186}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView,p:{scaleX:1,scaleY:1,x:103,y:14.75,color:"#000000",text:"Pandangan\n(pilih)",font:"27px 'Tw Cen MT Condensed Extra Bold'",lineHeight:31.2,lineWidth:186}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView_1},{t:this.lblView,p:{scaleX:1,scaleY:1,x:67,y:-65.5,color:"#000000",text:"120903011330",font:"23px 'Tw Cen MT Condensed Extra Bold'",lineHeight:26.95,lineWidth:144}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView,p:{scaleX:1,scaleY:1,x:103,y:14.75,color:"#000000"}}]}).to({state:[{t:this.instance,p:{scaleX:0.7745,scaleY:0.61,x:-17,y:-8}},{t:this.lblView,p:{scaleX:1.1556,scaleY:1.1556,x:101.9683,y:9.2401,color:"#FF9900"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView,p:{scaleX:1,scaleY:1,x:103,y:14.75,color:"#000000"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:0,y:0}},{t:this.lblView,p:{scaleX:1,scaleY:1,x:103,y:14.75,color:"#000000"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-17,-67.5,252.5,175.4);
+p.nominalBounds = new cjs.Rectangle(-17,-8,252.5,115.9);
 
 
 (lib.BtnToneMain = function(mode,startPosition,loop,reversed) {
@@ -4585,7 +4577,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// MergedLayer_1
-	this.lblSubject = new cjs.Text("Subjek:\n(pilih)", "27px 'Tw Cen MT Condensed Extra Bold'");
+	this.lblSubject = new cjs.Text("Subjek\n(pilih)", "27px 'Tw Cen MT Condensed Extra Bold'");
 	this.lblSubject.name = "lblSubject";
 	this.lblSubject.textAlign = "center";
 	this.lblSubject.lineHeight = 31;
@@ -4596,7 +4588,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.button1_1();
 	this.instance.setTransform(34,-14,0.6702,0.5279);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek:\n(pilih)"}}]}).to({state:[{t:this.instance,p:{scaleX:0.7684,scaleY:0.6052,x:18,y:-21}},{t:this.lblSubject,p:{scaleX:1.1465,scaleY:1.1465,x:136.5226,y:-2.9887,color:"#FF9900",text:"Subjek:\n(pilih)"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek:\n(pilih)"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000",text:"Subjek\n(pilih)"}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]}).to({state:[{t:this.instance,p:{scaleX:0.7684,scaleY:0.6052,x:18,y:-21}},{t:this.lblSubject,p:{scaleX:1.1465,scaleY:1.1465,x:136.5226,y:-2.9887,color:"#FF9900"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]},1).to({state:[{t:this.instance,p:{scaleX:0.6702,scaleY:0.5279,x:34,y:-14}},{t:this.lblSubject,p:{scaleX:1,scaleY:1,x:137.4,y:2,color:"#000000"}}]},1).wait(1));
 
 	this._renderFirstFrame();
 
